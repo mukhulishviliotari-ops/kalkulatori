@@ -14,7 +14,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     padding: 18px;
-    background: radial-gradient(circle at top, #2d2dff 0%, #17171d 38%, #0d0d11 100%);
+    background: radial-gradient(circle at top, #2e2e34 0%, #17171d 38%, #0d0d11 100%);
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
