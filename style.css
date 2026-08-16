@@ -9,7 +9,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     margin: 0;
-    background: radial-gradient(circle at center, #1e1e24 0%, #0d0d11 100%);
+    background: radial-gradient(circle at center, #0000ff 0%, #0d0d11 100%);
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
 }
 
