@@ -41,7 +41,7 @@ function calculate() {
         expression = expression.replace(/÷/g, '/');
         expression = expression.replace(/\^/g, '**');
 
-        // Percentage
+
         expression = expression.replace(/(\d+)%/g, '($1/100)');
 
         let result = Function('"use strict"; return (' + expression + ')')();

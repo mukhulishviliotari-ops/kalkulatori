@@ -1,4 +1,7 @@
 body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
     background-color: #333;
 }
 
@@ -11,25 +14,25 @@ body{
 }
 
 button {
-    
     width: 80px;
     height: 80px;
     font-size: 20px;
-    border-radius: 32%; /* makes them circular */
+    border-radius: 32%; 
     border: none;
     background-color: #333;
     color: white;
     cursor: pointer;
     transition: 0.2s;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
     font-size: 2rem;
 }
 
 button:hover {
-    background-color: #555;
+    background-color: #2a94d2;
 }
 .operator{
-    background-color: rgb(255, 166, 0);
+    background-color: rgb(139, 67, 220);
 }
 #display{
     margin-top: 15px;
@@ -47,8 +50,6 @@ button:hover {
     background-color: #0e0d0d;
     width:400px;
     height:650px;
-    margin-top:20px;
-    margin-left:200px;
     border-radius: 20px;
 }
 
