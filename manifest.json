@@ -1,0 +1,21 @@
+{
+  "short_name": "Kalkulatori",
+  "name": "Kalkulatori Web App",
+  "icons": [
+    {
+      "src": "icons8-calculator-100.png",
+      "type": "image/png",
+      "sizes": "100x100"
+    },
+    {
+      "src": "icons8-calculator-100.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "./index.html",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone"
+}
