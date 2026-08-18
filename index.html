@@ -13,44 +13,32 @@
 
 
     <input type="text" id="display" readonly>
+    <button class="operator" onclick="clearDisplay()">C</button>
+    <button class="operator" onclick="deleteLast()">⌫</button>
+    <button class="operator" onclick="appendToDisplay('%')">%</button>
+    <button class="operator" onclick="appendToDisplay('/')">÷</button>
 
-    <div id="buttons">
+    <button onclick="appendToDisplay('7')">7</button>
+    <button onclick="appendToDisplay('8')">8</button>
+    <button onclick="appendToDisplay('9')">9</button>
+    <button class="operator" onclick="appendToDisplay('*')">×</button>
 
-        <button class="operator" onclick="clearDisplay()">C</button>
-        <button class="operator" onclick="deleteLast()">⌫</button>
-        <button class="operator" onclick="appendToDisplay('%')">%</button>
-        <button class="operator" onclick="appendToDisplay('/')">÷</button>
+    <button onclick="appendToDisplay('4')">4</button>
+    <button onclick="appendToDisplay('5')">5</button>
+    <button onclick="appendToDisplay('6')">6</button>
+    <button class="operator" onclick="appendToDisplay('-')">-</button>
 
+    <button onclick="appendToDisplay('1')">1</button>
+    <button onclick="appendToDisplay('2')">2</button>
+    <button onclick="appendToDisplay('3')">3</button>
+    <button class="operator" onclick="appendToDisplay('+')">+</button>
 
+    <button onclick="appendToDisplay('0')">0</button>
+    <button onclick="appendToDisplay('.')">.</button>
+    <button onclick="appendToDisplay('^')">^</button>
+    <button class="operator equal" onclick="calculate()">=</button>
 
-
-        
-        <button onclick="appendToDisplay('7')">7</button>
-        <button onclick="appendToDisplay('8')">8</button>
-        <button onclick="appendToDisplay('9')">9</button>
-        <button class="operator" onclick="appendToDisplay('*')">×</button>
-
-        <button onclick="appendToDisplay('4')">4</button>
-        <button onclick="appendToDisplay('5')">5</button>
-        <button onclick="appendToDisplay('6')">6</button>
-        <button class="operator" onclick="appendToDisplay('-')">-</button>
-
-
-        <button onclick="appendToDisplay('1')">1</button>
-        <button onclick="appendToDisplay('2')">2</button>
-        <button onclick="appendToDisplay('3')">3</button>
-        <button class="operator" onclick="appendToDisplay('+')">+</button>
-
-
-        <button onclick="appendToDisplay('0')">0</button>
-        <button onclick="appendToDisplay('.')">.</button>
-        <button onclick="appendToDisplay('^')">^</button>
-        <button class="operator equal" onclick="calculate()">=</button>
-
-
-        <button class="operator" onclick="squareRoot()">√</button>
-
-    </div>
+    <button class="operator" onclick="squareRoot()">√</button>
 </div>
 
 <script src="kalkulatori.js"></script>
